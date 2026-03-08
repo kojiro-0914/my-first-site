@@ -1,2 +1,12 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+<!DOCTYPE html>
+<html>
+<head>
+<title>My First Siter</title>
+</head>
+
+<body>
+<h1>初めてのWebサイト</h1>
+<P>Web制作の勉強スタート</P>
+</body>
+
+</html>

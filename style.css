@@ -76,3 +76,8 @@ nav{
   background:skyblue;
   margin:10px;
 }
+
+.container{
+  display:flex;
+  justify-content: center;
+}

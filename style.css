@@ -65,3 +65,14 @@ nav{
   justify-content:center;
 
 }
+
+.container{
+  display:flex;
+}
+
+.box{
+  width:100px;
+  height:100px;
+  background:skyblue;
+  margin:10px;
+}

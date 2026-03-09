@@ -38,3 +38,23 @@ nav a:hover{
   max-width:900px;
   margin:0 auto;
 }
+
+.here{
+  text-align: center;
+  padding: 60px 20px;
+
+}
+
+.cta-button{
+  display:inline-block;
+  margin-top: 20px;
+  padding: 12px 24px;
+  background-color: #0077cc;
+  color:white;
+  text-decoration: none;
+  border-radius: 6px;
+}
+
+.cta-button:hover{
+  background-color: #005fa3;
+}

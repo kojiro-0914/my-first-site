@@ -1,7 +1,43 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    line-height: 1.6; /* 行間を広げて読みやすく */
+    color: #333;      /* 真っ黒より少しグレーにするとプロっぽい */
+    margin: 0;        /* 画面端の余計な隙間をなくす */
+}
+
+/* 2. ヘッダーのデザイン */
+header {
+    background-color: #f4f4f4; /* 薄いグレーの背景 */
+    padding: 20px;            /* 中に余白を作る */
+    text-align: center;       /* 文字を真ん中に */
+}
+
+/* 3. ナビゲーションを横並びにする（ここが重要！） */
+nav ul {
+    list-style: none; /* 点（・）を消す */
+    padding: 0;
+    display: flex;    /* 横並びにする魔法の言葉 */
+    justify-content: center; /* 真ん中に寄せる */
+    gap: 20px;        /* 項目同士の間隔 */
+}
+
+/* 4. メインコンテンツの幅を制限する */
+main {
+    max-width: 800px; /* 横に広がりすぎないようにする */
+    margin: 0 auto;   /* 左右の余白を自動にして真ん中に配置 */
+    padding: 20px;
+}
+
+/* 5. 見出しに下線をつける */
+h2 {
+    border-bottom: 2px solid #007bff; /* 青い下線 */
+    padding-bottom: 5px;
+}
+    </style>
     <meta charset="UTF-8">
     <title>私のポートフォリオ</title>
 </head>
